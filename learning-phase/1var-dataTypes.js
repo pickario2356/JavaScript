@@ -31,3 +31,30 @@
 // const=neither
 // const PI=3.14
 // console.log(PI)
+
+
+// data types= premtive and obj
+//let fullName="Aegon Targariyan"// string
+// console.log(typeof fullName)
+// let value =36
+// let isLie=false
+// let x;
+// let y=null;// OBJECT
+// let a=BigInt("123")// only no.
+// let b=Symbol("hoi@")// Doesnt matter of symbol
+
+// obj
+const student = {
+    fullName:"jin",
+    age:11,
+    cgpa:8.8,
+    isPass:true,
+//  key: value,
+};
+
+student["age"]=student["age"]+5
+
+student["fullName"]="kazama"
+
+console.log(student["age"])
+console.log(student.fullName)
