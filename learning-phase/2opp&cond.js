@@ -58,4 +58,12 @@
 // console.log("a>=b",a>=b);
 
 // Logical opp
-  
+// let a = 7;
+// let b = 3;
+// console.log("a=",a ,"b=",b)
+
+// console.log("a>b && b=3",a>b && b==3);// AND
+// console.log("a=7 || b>a",a==7 || b>a),// OR
+// console.log("!(a==7)",!(a==7));// OPP
+
+
