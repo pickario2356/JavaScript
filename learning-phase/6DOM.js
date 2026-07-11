@@ -38,18 +38,22 @@
 
 
 // "PROPERTIES"
+// direct krne sai ek wo log ki trh kaam krega so val mai srorew krne
 
 // console.dir(document.querySelector("p").tagName)
 // console.dir(firstEl.tagName)
 
 
-// console.dir(document.querySelector("div").innerHTML)
-
-let text = document.querySelector("div").innerText;
-
-console.dir(text)
+// let html = document.querySelector("div")// 4 ./innerHTML
+// in console= text.innerHTML ="<div>inner div</div>"
 
 
+// let text = document.querySelector("div");//4 innne.text
+// in console= text.innerText = "Hello Java script"
+
+
+// let hidden = document.querySelector("h4")
+// in console= hidden.textContent
 
 
 
