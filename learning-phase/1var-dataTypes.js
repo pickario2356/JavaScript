@@ -11,10 +11,9 @@
 
 // console.log(isFollow)
 
-
 // let,const & var
 
-// let= can update,redeclared//
+// var = can update,redeclared//
 // var king="aegon";
 // var king="aemon";
 // var king="robert";
@@ -34,7 +33,7 @@
 
 
 // data types= premtive and obj
-//let fullName="Aegon Targariyan"// string
+// let fullName="Aegon Targariyan"// string
 // console.log(typeof fullName)
 // let value =36
 // let isLie=false

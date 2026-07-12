@@ -16,7 +16,7 @@
 // function add(x,y){   // here it is not returnable
 //     console.log(x+y)
 // }
-// add(43,91)
+// add(43,91) 
 
 // function add(x,y){//ar ye parameter localvariable hote hai-->blokscope
 //     s = x+y;

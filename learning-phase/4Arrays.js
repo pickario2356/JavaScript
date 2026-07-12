@@ -28,22 +28,22 @@ let demon =["muzan","akaza","ichigo"]
 // console.log(agent)
 
 // console.log(agent)
-// agent.unshift("gon","king");
+agent.unshift("gon","king");
 // console.log(agent)
 
-// console.log(agent)
-// console.log(agent.pop())
+console.log(agent)
+console.log(agent.pop())
 
-// console.log("deleted",demon.shift())
-// demon.shift()
-// console.log(demon)
+console.log("deleted",demon.shift())
+demon.shift()
+console.log(demon)
 
-// console.log(agent.toString())
+console.log(agent.toString())
 
-// console.log(agent.concat(demon))
+console.log(agent.concat(demon))
 
-// console.log(agent)
-// console.log(agent.slice(1,3)) // not make change in orgnl
+console.log(agent)
+console.log(agent.slice(1,3)) // not make change in orgnl
 
 let arr = [1,2,3,4,5,6,7,8]
 

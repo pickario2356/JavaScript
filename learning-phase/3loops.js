@@ -48,13 +48,13 @@
 
 
 // for in// gives key
-// let student = {
-//     name:"raghav",
-//     class:1.2,
-//     ispass:false,
-//     cgpa:9
-// };
-// for (let key in student){
-//     console.log("key:",key,"and value",student[key])
+let student = {
+    name:"raghav",
+    class:1.2,
+    ispass:false,
+    cgpa:9
+};
+for (let key in student){
+    console.log("key:",key,"and value",student[key])
     
-// }    
+}    

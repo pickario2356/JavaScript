@@ -28,8 +28,7 @@
 // let arr = [27,60,83,51,46]
 
 // let newArr = arr.filter((val) =>{
-//     val %2==0
-//     return val
+//    return val %2==0
 // })
 // console.log(newArr)
 
@@ -41,9 +40,9 @@
 // });
 // console.log(sum)
 
-let arr = [27,60,83,51,46]
+// let arr = [27,60,83,51,46]
 
-let max = arr.reduce((pre,cur) =>{
-    return pre > cur? pre:cur
-})
-console.log(max)
+// let max = arr.reduce((pre,cur) =>{
+//     return pre > cur? pre:cur
+// })
+// console.log(max)

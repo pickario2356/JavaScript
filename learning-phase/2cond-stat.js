@@ -37,9 +37,9 @@
 
 // TERNARY OPPERATOR
 
-let age=25;
+// let age=25;
 
-let result = age >= 18 ?"Adult":"not Adult";
-console.log(result)
+// let result = age >= 18 ?"Adult":"not Adult";
+// console.log(result)
 
-age >= 18 ?console.log("Adult"):console.log("not Adult");
+// age >= 18 ?console.log("Adult"):console.log("not Adult");
