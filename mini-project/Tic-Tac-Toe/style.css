@@ -10,12 +10,14 @@ body{
 h1{
     color:#a0a0b8;
 }
+
 .container{
-    height: 70vh;
+    height: 80vmin;
     display: flex;
 
     align-items: center;
     justify-content: center;
+
 }
 .game{
     height: 60vmin;
@@ -33,8 +35,8 @@ h1{
     height: 18vmin;
     width: 18vmin;
     border: none;
-    border-radius: 1rem;
-    /* box-shadow: -10px 10px 10px rgb(17, 17, 17); */
+    border-radius: 1rem ;
+    box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.499);
     color:#ff477e;
     font-size: 8vmin;
 }
@@ -45,4 +47,33 @@ h1{
     border: 1px solid white;
     color:rgb(255, 255, 255);
     box-shadow: 0 10px 10px black;
+}
+.win{
+    font-size: 2.2rem;
+    color: #9d76a9;
+}
+.new-btn{
+    background-color: #32324f ;
+    padding:0.6rem;
+    border-radius: 0.5rem;
+    border: 1px solid white;
+    color:rgb(255, 255, 255);
+    box-shadow: 0 10px 10px black;
+}
+.msg-container{
+    height:100vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:1rem;
+}
+.hide{
+    display:none;
+}
+.forO{
+    color: white;
+}
+.forX{
+    color: #ff477e;
 }

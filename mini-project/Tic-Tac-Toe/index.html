@@ -7,7 +7,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main>
+     <div class="msg-container hide">
+        <p class="win">Winner</p>
+        <button class=" new-btn">New Game</button>
+    </div>
+
+    <main classs="complete">
         <h1>Tic Tac Toe</h1>
         <div class="container">
             <div class="game">
@@ -24,6 +29,27 @@
         </div>
         <button id="reset-btn">Reset Button</button>
     </main>
+   
+<!--
+Click
+  │
+  ▼
+checkWinner()
+  │
+  ▼
+Winner mila
+  │
+  ▼
+showWinner(postval1)
+  │
+  ▼
+showWinner("O")
+  │
+  ▼
+winner = "O"
+  │
+  ▼
+Message show -->
 </body>
 <script src="app.js"></script>
 </html>
