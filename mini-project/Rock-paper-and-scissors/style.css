@@ -67,15 +67,24 @@ h1{
     font-size: 2rem;
 
 }
-#user-score, #comp-score{
+#user-score, #comp-score, #tie-score{
     font-size: 3rem;
 }
 #msg{
     display: inline-block;
     margin-top:2rem;
-    font-size: 3rem;
+    font-size: 2rem;
 
     padding: 20px;
     background-color: #5c5444;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+}
+.reset{
+    filter: saturate(2);
+    margin-top:10px;
+    padding:18px;
+    font-size: 2rem;
+    background: none;
     border-radius: 20px;
 }
