@@ -20,7 +20,10 @@
 // classes
 
 
-class company{// Function
+class Car{// Function
+    constructor(tire){// ye sidha kaam krta hai mtlb sbse pehle
+        console.log("Yo me Constructor")
+    }
     up(){
         console.log("our compay is going up")
     }
@@ -35,10 +38,8 @@ class company{// Function
 }
 
 
-let Google = new company;// Object
-let Amazon = new company;
-Amazon.setProduct("pen")
- 
-// console.log(Google.up());
+let Buggati = new Car("golden");// Object
+let Auddi = new Car();
+Auddi.setProduct("wheel")// isse setproduct ka default variable change hor aai
 
 // console.log(Amazon.setProduct("money"))// undefined cuz no return
