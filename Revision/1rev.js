@@ -51,3 +51,38 @@
 //     txt.textContent="Welcome"
 // })
 
+
+// "NESTING"
+// let age = 26
+// if (age>=18){
+//     if(age>68){
+//         console.log("so Old")
+//     }
+//     else{
+//         console.log("mid")
+//     }
+// }
+// else{
+//     console.log("child")
+// }
+
+
+
+// for(let i=0;i<5;i++){
+//     let str=""
+//     for(j=0;j<5;j++){
+//         str=str+j;
+        
+//     }
+//     console.log(i,str)
+// }
+
+
+// for(let i=0;i<5;i++){
+//     let str=""
+//     for(j=0;j<5;j++){
+//         str=str+j;
+//         console.log(str)
+//     }
+    
+// }
