@@ -70,3 +70,39 @@
 
 
 // "PROMISES"
+// let promise = new Promise((resolve,reject)=>{
+//     console.log("Helllo World")
+//     // resolve(123)
+//     reject("this is very special errror")
+// })
+// console.log(promise)
+
+// function getData(dataId,nextData){
+//     return new Promise((resolve,reject)=>{//we get pending until we ad resolve or rejectfnx
+//         setTimeout(()=>{
+//         // console.log("data:",dataId)
+//         // resolve("done")
+//         reject("IDK Man Just An Error")
+//         if(nextData){
+//            nextData();
+//         }
+//     },5000)
+//     })
+// }
+// let xyz = getData(123)// jb xyz = getData() call hua tb ye xyz return sai connect hua aur fir isme prms obj save hua
+// // return,Ye wahi Promise wapas bhej deta hai jahan se function call hua tha,jese yha xyz sai hua tha
+
+// let getPromise = ()=>{
+//     return new Promise((resolve,reject)=>{
+//         console.log("printing")
+//         // resolve("yup Done")
+//         reject("blerwwwww")
+//     })
+// }
+// let promise = getPromise();
+// promise.then((res)=>{
+//     console.log("promise done",res)
+// })
+// promise.catch((err)=>{
+//     console.log("koi na better luck nexxt time",err)
+// })
