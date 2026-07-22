@@ -91,6 +91,10 @@
 // //     await getData(3)
 // //     console.log("GettingData3")
 // // }
+
+
+
+// upara mannualy fnx call krna pdra hai isme no need to do mannually
 // (async function (){
 //     await getData(1)
 //     console.log("GettingData1.........")
