@@ -33,8 +33,9 @@ const updateFlag = (element)=>{
 
 const fromCurr = document.querySelector(".from select");
 const toCurr = document.querySelector(".to select")
+const msg = document.querySelector(".msg")
 
-btn.addEventListener("click",(evt)=>{
+btn.addEventListener("click",async (evt)=>{
     evt.preventDefault()
     let amnt = document.querySelector(".amount input");
     let amntVal = amnt.value;
@@ -42,7 +43,14 @@ btn.addEventListener("click",(evt)=>{
         amntVal=1
         amnt.value="1"
     }
-    let 
+    let URL = `${BASE_URL}/${fromCurr.value.toLowerCase()}.json`
+    let response = await fetch(URL);// ye promise deta hai server to browser ka
+    let data =  await response.json()// ye raw data ko obj/strn mai krne ka promise
+
+    let rate = data[fromCurr.value.toLowerCase()][toCurr.value.toLowerCase()]
+    let finalRate = amntVal * rate;
+    // console.log(finalRate)
+    msg.innerHTML=`${amntVal} ${fromCurr.value} = ${finalRate} ${toCurr.value}`
 })
 // amntVal = input ki value ki copy hai.
 // amntVal change karne se input box nahi badalta.
