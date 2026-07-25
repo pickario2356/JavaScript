@@ -1,0 +1,117 @@
+@font-face {
+    font-family: main;
+    src: url(milky-coffee/Milky\ Coffee.ttf);
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background:#F8B2B2;
+    text-align: center;
+    font-family: main ;
+    color:#403D88;
+}
+.game{
+    height: 100vh;
+}
+.heading{
+    font-size: 1.5rem;
+    background:#8B639B;
+    color:rgb(207, 207, 207);
+    min-height: 10%;
+    border-radius: 0 0 30px 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 2px;
+
+    transition: all 0.2s ease;
+}
+.heading:active{
+    font-size:1.7rem;
+    min-height: 20%;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    height:40vh;
+    align-items: center;
+    gap:30px;
+}
+.choice{
+    cursor: pointer;
+    background-color: #8B639B;
+    height: 200px;
+    width: 200px;
+    font-size: 5rem;
+    border-radius: 1000px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* box-shadow: 0 20px 50px #000010; */
+    box-shadow: 
+    0 20px 50px #000010,
+    inset 0 5px 5px rgba(255, 255, 255, 0.926);
+    transition: all 0.2s ease ;
+}
+.choice:hover{
+    font-size: 6rem;
+    transform: translateY(-30px);
+    box-shadow: 0 50px 50px black,
+    inset 0 -10px 10px rgba(0, 0, 0, 0.926);
+}
+.choice:active{
+    transform: translateY(0px);
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-size: 3rem;
+}
+#user, #comp, #tie{
+    font-size:4rem;
+}
+.reset{
+    font-size: 2rem;
+    margin: 30px 0 30px 0;
+    background: #ff9999;
+    border: 3px solid #403D88;
+    display: inline-block;
+    padding:20px;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0 0 30px black;
+;
+    transition: all 0.2s ease ;
+}
+.reset:hover{
+    box-shadow: 0 10px 30px black,
+    inset 0 -5px 5px rgb(0, 0, 0);
+    transform: translateY(-10px);
+}
+.reset:active{
+    transform: translateY(0px);
+}
+.msg{
+    color:white;
+    background: #403D88;
+    font-size: 2.5rem;
+    padding:2rem;
+    display: inline-block;
+    border-radius: 30px;
+
+    transition: all 0.2s ease ;
+}
+.msg:hover{
+    box-shadow: 0 10px 30px black,
+    inset 0 -5px 5px rgb(0, 0, 0);
+    transform: translateY(-10px);
+}
+.msg:active{
+    transform: translateY(0px);
+}
