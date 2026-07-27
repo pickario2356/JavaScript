@@ -56,3 +56,29 @@
 
 
 // template literals backtick
+// console.log(`heyooo${9*9}`)
+
+
+// default parameter
+// function hoe(a=0,b=0,c=69){
+//     console.log(a,b,c)
+// }
+// hoe(1,2,3)
+// hoe(1)
+
+
+// rest and spread
+// let a=[1,2,3,56,5,7,8,95]
+// let b = [...a]// spread=Phailana aur ek trh sai copy
+
+// function ab(a,b,c,...d){// rest =Bacha hua sab Collect karo
+//     console.log(a,b,c,d)
+// }
+// ab(1,23,4,5,6,8,52,4.88,)
+
+
+// destructing
+// let a=[5,6,8,4]
+// let [b,c,d,e,f] =a;// isme bcde var bn rahe hai a array kai cuz[] and f undefined
+
+
