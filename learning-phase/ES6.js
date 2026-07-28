@@ -78,7 +78,39 @@
 
 
 // destructing
+// IN ARRAY // isme bcde var bn rahe hai a array kai cuz[] and f undefined
 // let a=[5,6,8,4]
-// let [b,c,d,e,f] =a;// isme bcde var bn rahe hai a array kai cuz[] and f undefined
+// let [b,,d,e,f] =a;// output b=5 d=8 means 6 skip ho gaya cuz uske var mai kuch nahi 
 
+// IN OBJ
+// const obj= {name:"kaalu",age:55}
+// let {age} =obj// means age ab variable bnn gaya of obj
+
+
+// PROMISES
+// let ans =new Promise((res,rej)=>{
+//     if(true){
+//         return res()// res khud ek fnx hota hai
+//     }
+//     else{
+//         return rej()// rej khud ek fnx hota hai
+//     }
+// })
+
+// ans.then(()=>{
+//     console.log("doneeee")
+// })
+// // .then,catch method hote hai jisme fnx pass hote hgai
+// ans.catch(()=>{
+//     console.log("reejectsssss")
+// })
+
+// var ans = new Promise((res,rej)=>{
+//     let num = Math.floor(Math.random()*9)//dono method hai .random() sai 0 sai 1 tk ki value decimal mai but not 1 .floor() sai wo decimal ki value single digit mai krti hai ex 2.79=2
+//     if(num<5){return res(num)}
+//     else{return rej(num)}
+// })
+// ans
+// .then(()=>{console.log("below")})
+// .catch(()=>{console.log("above")})
 
