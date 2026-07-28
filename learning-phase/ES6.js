@@ -114,3 +114,49 @@
 // .then(()=>{console.log("below")})
 // .catch(()=>{console.log("above")})
 
+// // PROMISE CHANNING
+// var ans = new Promise((res,rej)=>{
+//     return res("laptop open kr")//Function call ke () ke andar jo value pass karte ho, wo argument hoti hai. jese yaha laptop hai res fnx call kai() ka 
+// })
+
+// let p2 = ans.then((data)=>{// data yaha parameter hai
+//     console.log(data)
+
+// return new Promise((res,rej)=>{
+//         return res("chrome chla")
+//     })
+// })
+// let p3 = p2.then((data1)=>{
+//     console.log(data1)
+
+// return new Promise((res,rej)=>{
+//     return res("game chlaya")
+//     })
+// })
+// p3.then((data2)=>{
+//     console.log(data2)
+// })
+
+
+// async await
+// function user(){ without async
+//     fetch('https://randomuser.me/api/')
+//     .then((raw)=>{return raw.json()})
+//     .then((data)=>{console.log(data)})
+// }
+
+// async function user(){
+//     let raw = await fetch('https://randomuser.me/api/')// await sai wo particular maintime sai ht kai chala ajata hai side by side hone toh 
+//     let data = await raw.json()// fetch maui await laga wo side ho gyaa jb tk usme kuch nahi aajata raw mai kuch nahiaya jb kuch aya tb usko .json kia for conversion but isko bhi await mai krna hoga vrna ye pehle hi raw.json krr dega jb raw mai kuch aya nahi nahi
+//     console.log(data)
+// }
+// user()
+
+
+// try and catch
+// console.log("hehe")
+// try {console.log(hehe)}
+// catch(err){console.log(err)}
+// console.log("haha")
+
+ 
