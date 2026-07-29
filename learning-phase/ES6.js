@@ -146,11 +146,36 @@
 // }
 
 // async function user(){
-//     let raw = await fetch('https://randomuser.me/api/')// await sai wo particular maintime sai ht kai chala ajata hai side by side hone toh 
+//     let raw = await fetch('https://randomuser.me/api/')//await function ko pause karta hai jab tak Promise resolve na ho. Main thread block nahi hoti, JS dusre kaam karti rehti hai. await sirf us async function ke execution ko rokta hai.
 //     let data = await raw.json()// fetch maui await laga wo side ho gyaa jb tk usme kuch nahi aajata raw mai kuch nahiaya jb kuch aya tb usko .json kia for conversion but isko bhi await mai krna hoga vrna ye pehle hi raw.json krr dega jb raw mai kuch aya nahi nahi
 //     console.log(data)
 // }
 // user()
+
+// types of promises
+// await Promise.all([// teeno apis ek sath chlti hai
+//     fetch(user),
+//     fetch(posts),
+//     fetch(comments)
+// ]);
+
+// await Promise.race([Jo Promise pehle complete hoga, wahi result milega.
+
+
+
+
+
+
+
+
+
+    
+//     fetch(user),
+//     fetch(posts),
+//     fetch(comments)
+// ]);
+// 
+
 
 
 // try and catch
