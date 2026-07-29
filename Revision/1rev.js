@@ -86,3 +86,15 @@
 //     }
     
 // }
+
+
+
+// Exporting
+
+// const a = 69
+// export default a
+
+// export let arr = [25,6,3,4,2]
+
+
+

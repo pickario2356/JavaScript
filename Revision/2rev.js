@@ -55,3 +55,17 @@
 
 // let fnx = idk.bind(obj,1,2,3)// bind gives function
 // fnx()
+
+
+
+
+// Import And Export
+
+// import b from'./1rev.js'
+
+// import {arr} from'./1rev.js'
+// console.log(arr)
+
+
+
+ 
